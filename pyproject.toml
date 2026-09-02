@@ -1,0 +1,12 @@
+[build-system]
+requires=["setuptools>=61"]
+build-backend="setuptools.build_meta"
+[project]
+name="qimen4py"
+version="0.1.0"
+description="qimen Python SDK"
+requires-python=">=3.9"
+[project.optional-dependencies]
+test=["pytest>=7"]
+[tool.setuptools.package-data]
+qimen4py=["engine.cjs"]
