@@ -1,6 +1,6 @@
 # qimen4py
 
-Python 奇门遁甲排盘 SDK，包内自带经过版本锁定的排盘引擎。要求 Python 3.9+ 和 Node.js 20+。
+Python 原生奇门遁甲排盘 SDK。历法使用 `lunar-python`，运行时不依赖 Node.js 或其他语言。
 
 ```python
 from qimen4py import calculate, canonical
